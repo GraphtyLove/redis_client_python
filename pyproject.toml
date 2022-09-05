@@ -1,11 +1,22 @@
 [tool.poetry]
 name = "redis-client"
-version = "0.2.0"
+version = "0.3.0"
 description = "A simple client for Redis"
 authors = ["GraphtyLove <maxim.berge@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/GraphtyLove/redis_client_python"
 packages = [{include = "redis_client"}]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Typing :: Typed",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
