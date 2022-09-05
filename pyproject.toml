@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "redis-client"
+version = "0.1.0"
+description = "A simple client for Redis"
+authors = ["GraphtyLove <maxim.berge@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "redis_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+redis = "4.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
